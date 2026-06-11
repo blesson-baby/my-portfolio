@@ -3,7 +3,7 @@ import { FaGithub, FaLinkedin } from 'react-icons/fa'
 
 export default function Footer() {
   const currentYear = new Date().getFullYear()
-  const githubUrl = import.meta.env.VITE_GITHUB_URL || 'https://github.com/blesson-baby/Calmecare'
+  const githubUrl = import.meta.env.VITE_GITHUB_URL || 'https://github.com/blesson-baby'
   const linkedinUrl = 'https://www.linkedin.com/in/blessen-mathew-58501136b'
 
   return (
