@@ -60,8 +60,6 @@ VITE_EMAILJS_SERVICE_ID=your_service_id
 VITE_EMAILJS_TEMPLATE_ID=your_template_id
 VITE_EMAILJS_PUBLIC_KEY=your_public_key
 VITE_FRONTEND_URL=https://your-live-site.com
-VITE_BACKEND_URL=https://your-backend.com
-VITE_GITHUB_URL=https://github.com/your-username/your-repo
 ```
 
 ## Build
@@ -77,14 +75,7 @@ npm run build
 1. Push the repo to GitHub
 2. Import it on Vercel
 3. Leave the build command as `npm run build`
-4. Use `dist` as the output directory if needed
-
-### Netlify
-
-1. Push the repo to GitHub
-2. Import it on Netlify
-3. Use `npm run build` as the build command
-4. Use `dist` as the publish directory
+4. Use `dist` as the output directory 
 
 ## Customization
 
