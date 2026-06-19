@@ -5,7 +5,7 @@ export default function Hero() {
   const githubUrl = import.meta.env.VITE_GITHUB_URL || 'https://github.com/blesson-baby'
   const linkedinUrl =
     import.meta.env.VITE_LINKEDIN_URL || 'https://www.linkedin.com/in/blessen-mathew10/'
-  const resumeUrl = import.meta.env.VITE_RESUME_URL || '/resume.pdf'
+  const resumeUrl = import.meta.env.VITE_RESUME_URL || '/Resume.pdf'
 
   return (
     <section id="home" className="w-full min-h-screen flex items-center justify-center pt-16 px-4">
